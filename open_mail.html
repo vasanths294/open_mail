@@ -1,0 +1,23 @@
+<html>
+<head>
+<title> Open mail button </title>
+</head>
+
+<body>
+
+
+<button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+var id = 0;
+function myFunction() {
+  document.getElementById("demo").innerHTML += id;
+  window.open('https://mail.google.com/mail/u/' + id,'_blank');
+  id++;
+}
+</script>
+
+</body>
+</html>
